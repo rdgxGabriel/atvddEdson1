@@ -1,0 +1,85 @@
+
+body {
+    background-color: #d6d3d6c7;
+  }
+  
+ form {
+    background-color: #dcc4f8;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 30px;
+    width: 300px;
+    margin:  auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #885bb3;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 123px;
+    text-align: center;
+    text-decoration: none;
+    display: center;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+ 
+
+.client-list {
+    background-color: #dcc4f8;
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .client-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .client-list li {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .button {
+    background-color: #6143a7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    opacity: 0.10;
+  }
+  
+  
+  input[type="submit"]:hover {
+    opacity: 1;
+  }
+  
